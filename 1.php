@@ -58,3 +58,4 @@ foreach ($student_list as $group =>$groups) {
 }
 $topGroup = array_keys($averGrade, max($averGrade))[0];
 echo " Топ группа : \n $topGroup = $averGrade[$topGroup]";
+//
